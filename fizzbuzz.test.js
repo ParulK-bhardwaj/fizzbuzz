@@ -36,8 +36,8 @@ test('fizzyBuzzy checks if the number is divisible by 5 or 3 or both and return 
 test('fizzBuzz should generate correct result object for a given count', () => {
     const result = fb.fizzBuzz(15)
     expect(result.count).toBe(15)
-    expect(result.fizz).toBe(4)
-    expect(result.buzz).toBe(2)
+    expect(result.fizz).toBe(5)
+    expect(result.buzz).toBe(3)
     expect(result.fizzBuzz).toBe(1)
 })
 

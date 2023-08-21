@@ -62,10 +62,12 @@ function fizzBuzz(count) {
     if (i % 3 === 0 && i % 5 === 0) {
       result.fizzBuzz += 1;
     } else if (i % 3 === 0) {
-      result.fizz += 1;
+      result.fizz += 1 
     } else if (i % 5 === 0) {
-      result.buzz += 1;
+      result.buzz += 1
     }
+    result.fizz += result.fizzBuzz
+    result.buzz += result.fizzBuzz
   }
   return result
 }
